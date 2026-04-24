@@ -283,23 +283,25 @@ Built to work across:
 
 ## FAQ
 
-**Does the batch interview model reduce quality compared to the old 6-phase sequential approach?**
-No — quality is maintained. All the same dimensions are covered, and the spec captures identical information. The one genuine trade-off is that in the old model, a vague Phase 1 answer could trigger an immediate targeted follow-up before Phase 2 questions were shown. In the batch model, all clarifications surface at Section [6] instead. In practice this rarely matters, because Phase 2 questions almost never depend on Phase 1 precision — and seeing all questions at once actually leads users to give more complete, cross-referenced answers (like filling out a form vs a verbal interview). Section [6] acts as a safety net for everything else.
+### Can I use /ema without running /ame first?
 
-**Can I use /ema without running /ame first?**
-Yes, but EMA will flag the missing spec as a plan risk and note that accuracy is low. For best results, always run /ame first.
+Yes, but EMA will flag the missing spec as a plan risk and note that accuracy is low. For best results, always run `/ame` first.
 
-**What if I don't want to answer all the questions?**
-Skip any that don't apply. AME marks unanswered fields as `[NOT PROVIDED]` and flags them as assumptions. You correct anything significant in the Section [6] confirmation step.
+### What if I don't want to answer all the questions?
 
-**Can I edit `.ame/spec.md` manually?**
-Yes. EMA reads whatever is there. If you edit it, make sure the section headers ([A]–[E]) are preserved so EMA can parse them correctly.
+Skip any that don't apply. AME marks unanswered fields as `[NOT PROVIDED]` and flags them as assumptions. You can correct anything significant in the Section [6] confirmation step.
 
-**What if the scope estimate is wrong?**
+### Can I edit `.ame/spec.md` manually?
+
+Yes. EMA reads whatever is there. Preserve the section headers ([A]–[E]) so EMA can parse them correctly.
+
+### What if the scope estimate is wrong?
+
 Correct it before answering the interview. AME accepts any correction and recompiles the right set of questions.
 
-**Does this work offline (without context7)?**
-Fully. Context7 is optional. AME logs when it's unavailable and continues the interview.
+### Does this work offline (without context7)?
+
+Fully. Context7 is optional. AME logs when it's unavailable and continues the interview without it.
 
 ---
 
