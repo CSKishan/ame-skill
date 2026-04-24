@@ -1,4 +1,7 @@
+
 # ame-skill
+
+![alt text](arch-1.png)
 
 > Agent skills for VS Code, Google Antigravity, and Claude Code that turn a vague idea into a confirmed spec and a chunked, executable implementation plan — in as few as **3 exchanges**.
 
