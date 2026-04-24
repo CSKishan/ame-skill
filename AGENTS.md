@@ -39,7 +39,7 @@ Two VS Code Copilot Chat skills that work as a pipeline:
 ### Via skills CLI
 
 ```bash
-npx skills add github:{your-github-username}/ame-skill
+npx skills add github:CSKishan/ame-skill
 ```
 
 ---

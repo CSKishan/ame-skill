@@ -92,7 +92,7 @@ After copying, `/ame` and `/ema` will appear as slash commands in Claude Code. C
 ### Via skills CLI (VS Code and Antigravity)
 
 ```bash
-npx skills add github:{your-github-username}/ame-skill
+npx skills add github:CSKishan/ame-skill
 ```
 
 ### Workspace-level install (any supported IDE)

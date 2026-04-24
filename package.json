@@ -1,6 +1,12 @@
 {
   "name": "ame-skill",
-  "version": "1.0.0",
+  "author": {"name": "CSKishan", "url": "https://github.com/CSKishan"},
+  "homepage": "https://github.com/CSKishan/ame-skill",
+  "version": "2.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CSKishan/ame-skill.git"
+  },
   "description": "Ask Me Exhaustively + Enclose My Analysis — VS Code Copilot Chat skills for structured requirement elicitation and implementation planning",
   "keywords": [
     "copilot",
