@@ -1,0 +1,27 @@
+{
+  "name": "ame-skill",
+  "version": "1.0.0",
+  "description": "Ask Me Exhaustively + Enclose My Analysis — VS Code Copilot Chat skills for structured requirement elicitation and implementation planning",
+  "keywords": [
+    "copilot",
+    "skill",
+    "requirements",
+    "planning",
+    "ame",
+    "ema",
+    "agent"
+  ],
+  "license": "MIT",
+  "skills": [
+    {
+      "name": "ame",
+      "path": "skills/ame/SKILL.md",
+      "description": "Ask Me Exhaustively — structured adaptive interview that produces .ame/spec.md"
+    },
+    {
+      "name": "ema",
+      "path": "skills/ema/SKILL.md",
+      "description": "Enclose My Analysis — reads .ame/spec.md, generates .ame/plan.md, executes chunk-by-chunk"
+    }
+  ]
+}
